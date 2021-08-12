@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fizz Buzz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="rev-style">
+        <h1>The Fizz Buzz</h1>
+        <div class="rev-style-heading">
+            This is a Fizz Buzz game, that prints each number from 1 to 100, for each
+             multiple of the first value, it prints "FIZZ" instead of the number.  
+            For each multiple of the second value, it prints "BUZZ" instead of the number. 
+            For numbers which are multiples of both the first and second values, it prints
+             "FizzBuzz" instead of the number. Ready?? Let's try it out!
+        </div>
+            <label>
+                <span>Enter a number:</span>
+                <input id="FizzValue" type="number" name="fizz" value="3"> 
+            </label>
+
+            <label>
+                <span>Enter another number:</span>
+                <input id="BuzzValue" type="number" name="buzz" value="5"> 
+            </label>
+
+            <label>
+                <span></span>
+                <input type="submit" onclick="BuzzIt()" value="Buzz It">
+            </label>
+
+            <label>
+                <span>Results:</span>
+            </label> <br>
+
+            <p id="results"></p>
+  
+
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
